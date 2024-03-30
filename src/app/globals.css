@@ -4,9 +4,15 @@
   box-sizing: border-box;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 main {
   width: 100%;
   height: 100vh;
+  overflow-x: hidden;
 
   background-color: #121212;
 
@@ -22,4 +28,13 @@ h1 {
   color: #864d25;
 
   text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
 }
