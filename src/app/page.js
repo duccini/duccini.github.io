@@ -1,8 +1,8 @@
 export default function Home() {
   return (
     <main>
-      <h1>Guilherme M. B. Duccini - Software Engineer</h1>
-    <p>Em construção ...</p>
+      <h1>Guilherme Duccini - Engenheiro de Sotware</h1>
+      <p>Em construção ...</p>
     </main>
   );
 }

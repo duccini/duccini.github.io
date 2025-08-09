@@ -14,29 +14,29 @@ main {
   height: 100vh;
   overflow-x: hidden;
 
-  background-color: #121212;
+  background-color: #1a1b1b;
 
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
   justify-content: center;
 }
 
 h1 {
   font-family: Helvetica;
   font-size: 48px;
-width: 100%;
-  color: #864d25;
+  width: 100%;
+  color: #b3b3b2;
 
   text-align: center;
 }
 
 p {
-    font-family: Helvetica;
+  font-family: Helvetica;
   font-size: 30px;
-padding-top: 32px;
-  display: block;
-  color: #fff;
+
+  color: #edeced;
 
   text-align: center;
 }
